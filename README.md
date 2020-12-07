@@ -1,5 +1,5 @@
 # colorpick
-A simple colorpicker app I cobbled together in about 8 hours because none of the existing ones (gcolor2, gcolor3, KColorChooser, GPick, ...) support transparency and I just want something that'll quickly give me a RGB(A) + HEX code. This is my first time making a desktop app in Linux so I'm sure I did everything wrong. This is mainly for future me.
+A simple color picker app I cobbled together in about 8 hours because none of the existing ones (gcolor2, gcolor3, KColorChooser, GPick, ...) support transparency and I just want something that'll quickly give me a RGB(A) + HEX code. This is my first time making a desktop app in Linux so I'm sure I did everything wrong. This is mainly for future me.
 
 I'm pretty sure there's somemething wrong with the HSV > RGB calculations (changing saturation/value also changes hue, trying to change hue when the saturation/value is too low just breaks it), so until I figure that out I added a switch so it won't affect the RGB values. The RGBA calculations should be accurate though.
 
