@@ -1,0 +1,7 @@
+{
+	"uuid": "colorpick@jedomed",
+	"name": "ColorPick",
+	"description": "Opens ColorPick", 
+	"icon": "color-management",
+	"max-instances": -1
+}
