@@ -1,0 +1,1 @@
+/path/to/wherever/you/saved/it/./colorpick & sleep 0.4 && wmctrl -r :ACTIVE: -b add,above
